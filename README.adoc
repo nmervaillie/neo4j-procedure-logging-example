@@ -1,0 +1,7 @@
+= Neo4j logging in procedure example
+
+This project illustrates how to do logging in a Neo4j custom procedure / function,
+and control the logging activation dynamically at runtime using `CALL dbms.setConfigValue`.
+
+It uses the enterprise edition as community edition does not support changing configuration at runtime.
+You'll need to configure your maven settings to add the Neo4j enterprise maven repository (see pom file for more details).
